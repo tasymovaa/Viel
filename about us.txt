@@ -1,0 +1,208 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/fav-icon11.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>VIEL</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">VIEL</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <style>
+                    a{
+                      color: gray;
+                     text-decoration: none
+                   }
+                    </style>
+
+                    <a href = "newspage.html"><p>News</p></a>
+
+                    <style>
+                    a{
+                      color: gray;
+                     text-decoration: none
+                   }
+                    </style>
+
+                    <li class="menu-list-item">Coming Soon</li>
+                    <style>
+                    a{
+                      color: gray;
+                     text-decoration: none
+                   }
+                    </style>
+                    <a href = "page2.html"><p>About Us</p></a>
+
+
+
+              </div>
+              <div class="profile-container">
+                  <img class="profile-picture" src="images/image.profile.jpg" alt="">
+                  <div class="profile-text-container">
+                      <a href = "profilepage.html"><p>Profile</p></a>
+
+                      <i class="fas fa-caret-down"></i>
+                  </div>
+                  <div class="toggle">
+                      <i class="fas fa-moon toggle-icon"></i>
+                      <i class="fas fa-sun toggle-icon"></i>
+                      <div class="toggle-ball"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0), #000000), url('https://www.europeanbiogas.eu/wp-content/uploads/2019/07/shutterstock_1124953139-SMALL.jpg');">
+
+            </div>
+
+            <div class="movie-list-container">
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</style>
+</head>
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .button:hover {
+    background-color: #555;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  </style>
+  </head>
+  <body>
+
+  <div class="about-section">
+    <h1>About Us</h1>
+    <p>Dear users of our site, welcome to our site! Here you can find a movie for every mood and taste. We will continue to develop our site for your comfortable browsing.</p>
+<p>Sincerely, VIEL developers.</p>
+
+  </div>
+
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="images/Almira.jpg" alt="Almira" style="width:100%">
+        <div class="container">
+          <h2>Tassymova Almira</h2>
+          <p class="title">Founder</p>
+          <p>"We have worked hard and hope you enjoy our site."</p>
+          <p><button class="button">tasymovaalmira@gmail.com</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/Liza.jpg" alt="Elizaveta" style="width:100%">
+        <div class="container">
+          <h2>Bapieva Elizaveta</h2>
+          <p class="title">Founder</p>
+          <p> "If you release an untested product that doesn't work, everyone loses. So I assure you that you will find our site to your liking."</p>
+          <p><button class="button">lizabapieva@gmail.com</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team3.jpg" alt="Mukhtar" style="width:100%">
+        <div class="container">
+          <h2>Mukhamedjan Mukhtar</h2>
+          <p class="title">Founder</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p><button class="button">mukhtar.mukhamejan@mail.ru</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+  </html>

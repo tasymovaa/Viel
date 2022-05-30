@@ -1,0 +1,365 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/fav-icon11.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>VIEL</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">VIEL</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li><a class="menu-list-item active" href = movie.html >Home</a></li>
+
+
+
+
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="images/image.profile.jpg" alt="">
+                <div class="profile-text-container">
+
+                    <a href = "profile.html"> </p>Profile</p></a>
+                    <style>
+                        a{
+                            color: gray;
+                            text-decoration: none;
+                        }
+                    </style>
+
+
+                <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+    body {
+       background: #000000;
+       color: #fff;
+   }
+   </style>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .7);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.intro__title {
+    margin: 0;
+
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+}
+
+.containerr {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.videoo {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 56.25%;
+}
+
+.video__media {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+</style>
+
+<body>
+
+
+    <div class="intro">
+        <div class="videoo">
+            <video class="video__media" src="images/ifeelpretty.mp4" autoplay muted loop></video>
+        </div>
+
+        <div class="intro__content">
+            <div class="containerr">
+                <h1 class="intro__title">I Feel Pretty</h1>
+                <h1 class="intro__title">.</h1>
+                <p class="intro__title">Her life consisted of eternal attempts to go on a diet or do fitness. “The attempt is counted,” the Universe thought, and threw the poor thing off the exercise bike. The girl hits her head and gains an abnormal confidence that now she is simply irresistible. One problem - in the eyes of other people, she has not changed a bit.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+   <style>
+
+* {
+  box-sizing: border-box;
+}
+
+video {
+  width: 100%;
+  height: 60%;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: green;
+  color: #FFFFFF;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #333333;
+  color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #444444;
+}
+
+.aside {
+  background-color: #333333;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+</style>
+
+
+
+<body>
+
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>2018</li>
+      <li>USA</li>
+      <li>Comedy - Melodrama</li>
+      <li>Amy Schumer - Michelle Williams - Tom Hopper</li>
+      <li><iframe width="270" height="250" src="https://www.youtube.com/embed/cVx9EFK3DWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1></h1>
+    <p></p>
+
+    <video width="400" controls>
+        <source src="c11.mp4" type="video/mp4">
+            <source src="c11.ogg" type="video/ogg">
+    </video>
+    </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Did you know?</h2>
+      <h2>-</h2>
+      <p>Actresses Michelle Williams and Busy Philipps are best friends in real life.</p>
+      <h2>-</h2>
+      <p>The film was originally going to be rated "R".</p>
+      <h2>-</h2>
+      <p>To avoid competing with Avengers: Infinity War (2018) the release date has been pushed back</p>
+      <h2>-</h2>
+      <p>The beach scene was filmed on Salisbury Beach in Salisbury, Massachusetts.</p>
+      <h2>-</h2>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+<div class="movie-list-container">
+                <h1 onmouseover="style.color='green'" onmouseout="style.color='gray'" class="movie-list-title">Watch more</h1>
+
+<body>
+
+
+  <div class="movie-list-wrapper">
+      <div class="movie-list">
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="https://static.okko.tv/images/v2/17443646" alt="">
+              <span class="movie-list-item-title">Garfield</span>
+              <p class="movie-list-item-desc">The fat and lazy ginger cat has nothing to worry about in the future.</p>
+              <a href="garfield.html" class="movie-list-item-button">Watch</a>
+            </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BNDhiOTZkOGQtODcxYi00YTBiLTg4NzItZDU5NDQzOTg0MThlXkEyXkFqcGdeQXVyNzU4Njg1MzU@._V1_.jpg" alt="">
+                    <span class="movie-list-item-title">Kazakh Business</span>
+                    <p class="movie-list-item-desc">Zhomart is an ordinary businessman who owns a hotel, who will soon have a new turn in business and a new breath - a large investor is interested in his project.</p>
+                    <a href="kazakhbusiness.html" class="movie-list-item-button">Watch</a>
+                  </div>
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="http://nitehawkcinema.files.wordpress.com/2013/05/1238490.jpg" alt="">
+  <span class="movie-list-item-title">Best In Show</span>
+  <p class="movie-list-item-desc">While preparing for the most prestigious dog show, several couples will do everything to make their pets come first.</p>
+<a href="bestinshow.html" class="movie-list-item-button">Watch</a>
+</div>
+  <div class="movie-list-item">
+          <img class="movie-list-item-img" src="https://www.desktopbackground.org/download/1680x1050/2014/10/22/844327_flower-field-hd-resolution-wallpapers-nature-wallpapers-semrawut_1920x1080_h.jpg" alt="">
+          <span class="movie-list-item-title">Deadpool</span>
+          <p class="movie-list-item-desc">Wade Wilson is a mercenary. As a by-product of the military's "Weapon X" program, Wilson gained incredible strength.</p>
+          <a href="deadpool.html" class="movie-list-item-button">Watch</a>
+        </div>
+        <div class="movie-list-item">
+            <img class="movie-list-item-img" src="https://assets.teenvogue.com/photos/5f11b8869a4aa40b493d2689/16:9/w_2560%2Cc_limit/WorkIt_Vertical_Main_RGB_EN-US.jpg" alt="">
+            <span class="movie-list-item-title">Work It</span>
+            <p class="movie-list-item-desc">Quinn dreams of winning a dance competition to get into a prestigious college.</p>
+            <a href="workit.html" class="movie-list-item-button">Watch</a>
+          </div>
+        <div class="movie-list-item">
+            <img class="movie-list-item-img" src="https://media.glamour.com/photos/5f9870186bf84ccb25e47729/master/pass/holidate.jpg" alt="">
+            <span class="movie-list-item-title">Holidate</span>
+            <p class="movie-list-item-desc">They do not know each other, but they are tired of spending the holidays alone. The two then decide to maintain a platonic relationship year-round.</p>
+          <a href="holidate.html" class="movie-list-item-button">Watch</a>
+        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+             <script src="app.js"></script>
+
+<div class="footer">
+    <h2>VIEL</h2>
+
+  <h3></h3>
+</div>
+
+</body>
+</html>
